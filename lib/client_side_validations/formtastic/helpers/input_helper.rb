@@ -9,4 +9,4 @@ module ClientSideValidations::Formtastic::Helpers::InputHelper
   end
 end
 
-::Formtastic::FormBuilder.send(:include, ::ClientSideValidations::Formtastic::Helpers::InputHelper)
+::FormtasticBootstrap::FormBuilder.send(:include, ::ClientSideValidations::Formtastic::Helpers::InputHelper)
